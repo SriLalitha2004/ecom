@@ -3,7 +3,7 @@ import { womanData } from "../data/woman";
 import { useParams } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
-import { useCart } from "../context/CartContext";
+import { useCart } from "../context/cartContext";
 
 const WomanSingle = () => {
   const { id } = useParams();

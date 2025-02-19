@@ -3,7 +3,7 @@ import { computerData } from "../data/computers";
 import { useParams } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
-import { useCart } from "../context/CartContext";
+import {useCart} from "../context/cartContext";
 
 const ComputerSingle = () => {
   const { id } = useParams();
