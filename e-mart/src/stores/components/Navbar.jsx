@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { useCart } from "../context/Cartcontext";
+import { useCart } from "../context/cartContext";
 
 const Navbar = () => {
 
